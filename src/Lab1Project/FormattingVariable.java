@@ -8,7 +8,7 @@ public class FormattingVariable {
         int population1 = 7092326;
         double populationDensity1 = 82.2;
 
-        String country2 = "United Kingdom";
+        String country2 = "United kingdom";
         int population2 = 6092326;
         double populationDensity2 = 270.7;
 
