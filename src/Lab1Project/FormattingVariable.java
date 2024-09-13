@@ -9,16 +9,16 @@ public class FormattingVariable {
         double populationDensity1 = 82.2;
 
         String country2 = "United Kingdom";
-        int population2 = 6092326;
+        int population2 = 63092326;
         double populationDensity2 = 270.7;
 
-        System.out.println(String.format("%-20s%-15%s\n%-20s%-15s%s",
+        System.out.println(String.format("%-20s%-15s%s\n%-20s%-15s%s",
                 "Name","Population","Pop Density",
                 "----","----------","-----------"));
 
         System.out.println(String.format("%-20s%-15d%.2f\n%-20s%-15d%.2f",
-                country1,population1,populationDensity1,
-                country2,population2,populationDensity2));
+                country1,population1,populationDensity1,country2,
+                population2,populationDensity2));
 
     }
 }
